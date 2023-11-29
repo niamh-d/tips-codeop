@@ -28,3 +28,23 @@ npm i
 - Check tickbox under "Editor: Format On Save"
 - Type "autosave" into search bar
 - Under "Files: Auto Save" select "onFocusChange"
+
+## Make VSCode Pretty
+
+- Go to [VSCodeThemes](https://vscodethemes.com/) and find your favourite colour theme.
+- Click on the image and it will take you to a theme page with previews and a button to add this theme to your editor.
+- Install [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) to make your file nad filder icons pretty
+
+## Live Server
+
+When building webpages you're going to want to have [LiveServe](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed. It means you never have to manually refresh the browser again.
+
+## For easier writing of HTML
+
+- Use [Emmet snippets](https://code.visualstudio.com/docs/editor/emmet)
+- Install extension "Auto Close Tag"
+- Install extension "Auto Rename Tag"
+
+## For easier writing of React code
+
+- Use [Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
