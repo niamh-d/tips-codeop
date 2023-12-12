@@ -25,13 +25,25 @@ Instructions [here](https://www.freecodecamp.org/news/how-to-open-visual-studio-
 
 ### Live Server
 
-When building webpages you're going to want to have [LiveServe](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed. It means you never have to manually refresh the browser again.
+When building webpages you're going to want to have [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed. It means you never have to manually refresh the browser again.
 
 ### For easier writing of HTML
 
 - Use [Emmet snippets](https://code.visualstudio.com/docs/editor/emmet)
 - Install extension "Auto Close Tag"
 - Install extension "Auto Rename Tag"
+
+### font-size: 62.5%
+
+In your CSS file, apply the below code:
+
+```
+:root {
+  font-size: 62.5%;
+}
+```
+
+The default size for font in browsers is 16px. 62.5% of 16px = 10px. Now when you size using rem units, each rem = 10px, so 2rem = 20px, 10rem = 100px. Makes using rem units much easier! Read about using rem units [**here**](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/).
 
 ## VSCode Snippets
 
@@ -42,7 +54,6 @@ This repo contains a txt file with helpful snippets. [Click here](https://code.v
 Add the below to your snippets.code-snippets file in VSCode for easier writing of console.log().
 
 ```
-{
   "Print to console": {
     "prefix": "cl",
     "scope": "javascript,typescript,javascriptreact",
