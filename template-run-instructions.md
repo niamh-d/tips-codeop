@@ -107,8 +107,8 @@ You can kill terminal.
 1. In the terminal run:
 
 ```
-npm run migrate
 npm i
+npm run migrate
 ```
 
 ### Install frontend packages
