@@ -54,6 +54,7 @@
 #### React
 
 - [State management – Context v. Props](https://www.freecodecamp.org/news/state-management-in-react-props-vs-context-api)
+- [Context API](https://www.freecodecamp.org/news/context-api-in-react/)
 
 #### JavaScript
 
