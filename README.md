@@ -66,6 +66,44 @@ Add the below to your snippets.code-snippets file in VSCode for easier writing o
 
 - Use [Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
 
+## Git
+
+### Git aliases
+
+With the below command you can create a git alias.
+
+```
+git config --global alias.<alias> <command>
+
+```
+
+E.g.
+
+```
+git config --global alias.cm 'commit -m'
+
+```
+
+Then the next time you want to make a commit you can simply run:
+
+```
+git cm 'first commit'
+```
+
+Instead of:
+
+```
+git commit -m 'first commit'
+```
+
+Learn more [here](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases).
+
+## GitHub
+
+### Gitzip
+
+[Gitzip](https://gitzip.org/) allows you to individually-select specific filesd and subfolders from a git repo and download them as a zip file.
+
 ## Node modules
 
 ### Git ignore file
